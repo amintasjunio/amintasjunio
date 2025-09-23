@@ -66,7 +66,7 @@ const amintas = {
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amintasjunio&theme=tokyonight" alt="GitHub Streak"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amintasjunio&theme=tokyo-night&hide_border=true" alt="Contribution Graph"/>
 </div>
 
 ## 🏆 Certificações
@@ -91,14 +91,6 @@ const amintas = {
 <div align="center">
 
 [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
-
-</div>
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  
-![Snake animation](https://github.com/amintasjunio/amintasjunio/blob/output/github-contribution-grid-snake.svg)
 
 </div>
 
