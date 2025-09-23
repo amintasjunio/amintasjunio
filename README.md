@@ -61,12 +61,12 @@ const amintas = {
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO_GITHUB&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO_GITHUB&layout=compact&langs_count=8&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=amintasjunio&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amintasjunio&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SEU_USUARIO_GITHUB&theme=tokyonight" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amintasjunio&theme=tokyonight" alt="GitHub Streak"/>
 </div>
 
 ## 🏆 Certificações
@@ -98,7 +98,7 @@ const amintas = {
 
 <div align="center">
   
-![Snake animation](https://github.com/SEU_USUARIO_GITHUB/SEU_USUARIO_GITHUB/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/amintasjunio/amintasjunio/blob/output/github-contribution-grid-snake.svg)
 
 </div>
 
@@ -108,6 +108,6 @@ const amintas = {
   
 ### 🚀 "Transformando código em soluções que fazem a diferença!"
 
-![Profile Views](https://komarev.com/ghpvc/?username=SEU_USUARIO_GITHUB&color=blue&style=flat-square)
+![Profile Views](https://komarev.com/ghpvc/?username=amintasjunio&color=blue&style=flat-square)
 
 </div>
