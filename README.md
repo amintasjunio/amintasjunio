@@ -1,11 +1,13 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=500&lines=Olá!+👋+Eu+sou;Amintas+Junio;Desenvolvedor+Full+Stack;Cloud+%26+DevOps+Engineer" />
-</h1>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Amintas+Junio&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Desenvolvedor+Full+Stack+|+Cloud+Engineer&descSize=25&descAlignY=55"/>
+</div>
 
-<h3 align="center">🚀 Transformando ideias em soluções escaláveis e inovadoras</h3>
+<h3 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=30&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Desenvolvedor+PHP+Senior+🚀;AWS+Cloud+Engineer+☁️;Especialista+em+Integrações+🔌;ServiceNow+Developer+💼;Apaixonado+por+Automação+🤖" alt="Typing SVG" />
+</h3>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
 </div>
 
 <br>
@@ -24,7 +26,7 @@
 
 📍 Montes Claros - MG, Brasil
 
-<br><br>
+<br><br><br>
 
 ## 🛠️ Minha Caixa de Ferramentas
 
@@ -171,7 +173,7 @@ mindmap
       REST APIs
     Cloud Engineering
       AWS EC2
-      S3 & RDS
+      S3 RDS
       Security Groups
       CloudWatch
     Integrations
@@ -181,8 +183,8 @@ mindmap
       Webhooks
     Automation
       N8N Workflows
-      CI/CD Pipelines
-      Scripts Python/JS
+      CI CD Pipelines
+      Scripts Python JS
       Cron Jobs
     ITSM
       ServiceNow
@@ -409,13 +411,20 @@ class S3FileManager {
 
 <div align="center">
   
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=amintasjunio&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF" alt="Amintas's GitHub Stats" />
+<a href="https://github.com/amintasjunio">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=amintasjunio&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF"/>
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=amintasjunio&theme=radical&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF"/>
+</a>
 
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=amintasjunio&theme=radical&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" alt="Amintas's Streak" />
+</div>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amintasjunio&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&langs_count=10" alt="Top Languages" />
+<div align="center">
+  
+<a href="https://github.com/amintasjunio">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amintasjunio&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&langs_count=10"/>
+</a>
 
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=amintasjunio&theme=react-dark&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF" alt="Contribution Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=amintasjunio&theme=react-dark&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&area_color=00D9FF" alt="Contribution Graph" />
 
 </div>
 
@@ -423,7 +432,7 @@ class S3FileManager {
 
 <div align="center">
   
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=amintasjunio&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-profile-trophy.vercel.app/?username=amintasjunio&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
 
 </div>
 
@@ -502,7 +511,11 @@ class S3FileManager {
 
 <br>
 
+</div>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=Obrigado+pela+visita!&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=72"/>
+
+<div align="center">
 
 **✨ Desenvolvido com 💙 e ☕ por Amintas Junio | © 2025**
 
