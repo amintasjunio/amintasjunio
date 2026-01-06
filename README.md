@@ -163,72 +163,130 @@
 
 <div align="center">
 
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#1a1a2e','primaryTextColor':'#eee','primaryBorderColor':'#0f3460','lineColor':'#16213e','secondaryColor':'#0f3460','tertiaryColor':'#533483','noteBkgColor':'#16213e','noteTextColor':'#fff','fontSize':'16px','fontFamily':'trebuchet ms'}}}%%
+<table>
+<tr>
+<td width="50%" valign="top">
 
-flowchart LR
-    subgraph Backend["💻 BACKEND DEVELOPMENT"]
-        B1[PHP Senior 8.x]
-        B2[Node.js & Express]
-        B3[Python & FastAPI]
-        B4[REST APIs]
-        B5[Microservices]
-    end
-    
-    subgraph Cloud["☁️ CLOUD ENGINEERING"]
-        C1[AWS EC2]
-        C2[S3 Storage]
-        C3[RDS & Aurora]
-        C4[Security Groups]
-        C5[CloudWatch]
-    end
-    
-    subgraph Integration["🔌 INTEGRATIONS"]
-        I1[ServiceNow API]
-        I2[WhatsApp Business]
-        I3[GLPI REST API]
-        I4[Webhooks]
-        I5[OAuth 2.0]
-    end
-    
-    subgraph Auto["🤖 AUTOMATION"]
-        A1[N8N Workflows]
-        A2[CI/CD Pipelines]
-        A3[Python Scripts]
-        A4[Cron Jobs]
-        A5[Process Mining]
-    end
-    
-    subgraph ITSM["📊 ITSM"]
-        IT1[ServiceNow Admin]
-        IT2[GLPI]
-        IT3[ITIL v3]
-        IT4[Incident Mgmt]
-        IT5[Change Mgmt]
-    end
-    
-    subgraph Database["🗄️ DATABASES"]
-        D1[MySQL 8.x]
-        D2[PostgreSQL]
-        D3[Amazon Aurora]
-        D4[MongoDB]
-        D5[Redis Cache]
-    end
-    
-    Backend -.-> Integration
-    Cloud -.-> Backend
-    Integration -.-> Auto
-    Auto -.-> ITSM
-    Database -.-> Backend
-    Cloud -.-> Database
-    
-    style Backend fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff
-    style Cloud fill:#4ecdc4,stroke:#099268,stroke-width:3px,color:#000
-    style Integration fill:#ffe66d,stroke:#f59f00,stroke-width:3px,color:#000
-    style Auto fill:#a8e6cf,stroke:#37b24d,stroke-width:3px,color:#000
-    style ITSM fill:#c7b3ff,stroke:#7950f2,stroke-width:3px,color:#000
-    style Database fill:#ff8b94,stroke:#e03131,stroke-width:3px,color:#fff
-```
+<details open>
+<summary><h3>💻 Backend Development</h3></summary>
+<br>
+
+![Backend](https://img.shields.io/badge/NÍVEL-EXPERT-FF6B6B?style=for-the-badge&logo=php&logoColor=white)
+
+#### 🚀 Tecnologias Principais
+
+- **PHP 8.x** - Desenvolvimento de aplicações robustas
+- **Node.js & Express** - APIs REST escaláveis
+- **Python & FastAPI** - Microservices de alta performance
+- **REST APIs** - Arquitetura e design de APIs
+- **Microservices** - Arquitetura distribuída
+
+#### 📦 Frameworks & Tools
+`Laravel` `Symfony` `CodeIgniter` `Express.js` `FastAPI`
+
+</details>
+
+<details open>
+<summary><h3>🔌 Integrations & APIs</h3></summary>
+<br>
+
+![Integration](https://img.shields.io/badge/NÍVEL-EXPERT-FFE66D?style=for-the-badge&logo=integromat&logoColor=black)
+
+#### 🔗 Integrações Desenvolvidas
+
+- **ServiceNow REST API** - Automação de workflows ITSM
+- **WhatsApp Business API** - Mensageria corporativa
+- **GLPI API** - Integração com sistemas de tickets
+- **Webhooks** - Event-driven architecture
+- **OAuth 2.0** - Autenticação e autorização
+
+#### 🌐 Protocolos & Padrões
+`REST` `SOAP` `GraphQL` `WebSockets` `JWT`
+
+</details>
+
+<details open>
+<summary><h3>🗄️ Databases & Storage</h3></summary>
+<br>
+
+![Database](https://img.shields.io/badge/NÍVEL-ADVANCED-FF8B94?style=for-the-badge&logo=postgresql&logoColor=white)
+
+#### 💾 Banco de Dados
+
+- **MySQL 8.x** - Otimização e performance tuning
+- **PostgreSQL** - Queries complexas e procedures
+- **Amazon Aurora** - Databases em cloud
+- **MongoDB** - NoSQL e big data
+- **Redis** - Cache e session management
+
+#### 🔧 Skills
+`Query Optimization` `Indexing` `Replication` `Backup & Recovery`
+
+</details>
+
+</td>
+<td width="50%" valign="top">
+
+<details open>
+<summary><h3>☁️ Cloud Engineering</h3></summary>
+<br>
+
+![Cloud](https://img.shields.io/badge/NÍVEL-ADVANCED-4ECDC4?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+#### ⚡ Amazon Web Services
+
+- **EC2** - Gerenciamento de instâncias e auto-scaling
+- **S3** - Object storage e CDN
+- **RDS & Aurora** - Databases gerenciados
+- **Security Groups** - Firewall e políticas de acesso
+- **CloudWatch** - Monitoring e alertas
+
+#### 🛠️ DevOps & Infrastructure
+`Terraform` `CloudFormation` `VPC` `Load Balancer` `IAM`
+
+</details>
+
+<details open>
+<summary><h3>🤖 Automation & DevOps</h3></summary>
+<br>
+
+![Automation](https://img.shields.io/badge/NÍVEL-ADVANCED-A8E6CF?style=for-the-badge&logo=gitlab&logoColor=black)
+
+#### ⚙️ Ferramentas de Automação
+
+- **N8N** - Workflows de automação no-code
+- **CI/CD Pipelines** - GitLab CI, GitHub Actions
+- **Scripts Python/JS** - Automação de processos
+- **Cron Jobs** - Tarefas agendadas
+- **Docker** - Containerização de aplicações
+
+#### 🚀 Práticas DevOps
+`Git Flow` `Blue-Green Deploy` `Rolling Updates` `Monitoring`
+
+</details>
+
+<details open>
+<summary><h3>📊 ITSM & Service Management</h3></summary>
+<br>
+
+![ITSM](https://img.shields.io/badge/NÍVEL-EXPERT-C7B3FF?style=for-the-badge&logo=servicenow&logoColor=white)
+
+#### 🎯 Gestão de Serviços
+
+- **ServiceNow** - Administration & Development
+- **GLPI** - Help desk e inventário
+- **ITIL v3** - Framework de boas práticas
+- **Incident Management** - Resolução de incidentes
+- **Change Management** - Gestão de mudanças
+
+#### 📋 Processos ITIL
+`Service Desk` `Problem Management` `SLA Management` `CMDB`
+
+</details>
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -236,7 +294,7 @@ flowchart LR
 
 <div align="center">
 
-### 💼 Stack Tecnológica Completa
+### 🛠️ Stack Tecnológica Completa
 
 <img src="https://skillicons.dev/icons?i=php,js,python,nodejs,mysql,postgres,mongodb,redis,aws,docker,linux,nginx,git,github,gitlab,postman,vscode&perline=9" alt="Tech Stack" />
 
@@ -246,16 +304,36 @@ flowchart LR
 
 <div align="center">
 
-### 🎓 Certificações & Especializações
+### 📈 Nível de Proficiência por Área
 
-| Área | Tecnologias | Nível |
-|:-----|:------------|:-----:|
-| **Backend** | PHP, Node.js, Python | ![](https://img.shields.io/badge/Expert-90%25-success?style=flat-square) |
-| **Cloud** | AWS (EC2, S3, RDS, Aurora) | ![](https://img.shields.io/badge/Advanced-85%25-blue?style=flat-square) |
-| **Integrations** | REST API, ServiceNow, WhatsApp | ![](https://img.shields.io/badge/Expert-95%25-success?style=flat-square) |
-| **Automation** | N8N, CI/CD, Scripts | ![](https://img.shields.io/badge/Advanced-80%25-blue?style=flat-square) |
-| **ITSM** | ServiceNow, GLPI, ITIL | ![](https://img.shields.io/badge/Expert-90%25-success?style=flat-square) |
-| **Databases** | MySQL, PostgreSQL, MongoDB | ![](https://img.shields.io/badge/Advanced-85%25-blue?style=flat-square) |
+<table>
+<tr>
+<td align="center" width="16.66%">
+<img src="https://img.shields.io/badge/Backend-95%25-success?style=for-the-badge&logo=php&logoColor=white" alt="Backend"/>
+<br><b>Backend Dev</b>
+</td>
+<td align="center" width="16.66%">
+<img src="https://img.shields.io/badge/Cloud-85%25-blue?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="Cloud"/>
+<br><b>Cloud AWS</b>
+</td>
+<td align="center" width="16.66%">
+<img src="https://img.shields.io/badge/Integration-98%25-success?style=for-the-badge&logo=postman&logoColor=white" alt="Integration"/>
+<br><b>Integrations</b>
+</td>
+<td align="center" width="16.66%">
+<img src="https://img.shields.io/badge/Automation-80%25-blue?style=for-the-badge&logo=gitlab&logoColor=white" alt="Automation"/>
+<br><b>Automation</b>
+</td>
+<td align="center" width="16.66%">
+<img src="https://img.shields.io/badge/ITSM-90%25-success?style=for-the-badge&logo=servicenow&logoColor=white" alt="ITSM"/>
+<br><b>ITSM</b>
+</td>
+<td align="center" width="16.66%">
+<img src="https://img.shields.io/badge/Database-88%25-blue?style=for-the-badge&logo=postgresql&logoColor=white" alt="Database"/>
+<br><b>Databases</b>
+</td>
+</tr>
+</table>
 
 </div>
 
