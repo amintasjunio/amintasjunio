@@ -163,85 +163,56 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td width="33%" align="center">
-
-### 💻 Backend Development
-![Backend](https://img.shields.io/badge/Backend-FF6B6B?style=for-the-badge&logo=code&logoColor=white)
-
-**🔹 PHP Senior**  
-**🔹 Node.js**  
-**🔹 Python**  
-**🔹 REST APIs**  
-**🔹 Microservices**
-
-</td>
-<td width="33%" align="center">
-
-### ☁️ Cloud Engineering
-![Cloud](https://img.shields.io/badge/Cloud-4ECDC4?style=for-the-badge&logo=icloud&logoColor=white)
-
-**🔹 AWS EC2 & S3**  
-**🔹 RDS & Aurora**  
-**🔹 Security Groups**  
-**🔹 CloudWatch**  
-**🔹 Load Balancer**
-
-</td>
-<td width="33%" align="center">
-
-### 🔌 Integrations
-![Integration](https://img.shields.io/badge/Integration-FFE66D?style=for-the-badge&logo=integromat&logoColor=black)
-
-**🔹 ServiceNow API**  
-**🔹 WhatsApp Business**  
-**🔹 GLPI REST API**  
-**🔹 Webhooks**  
-**🔹 OAuth 2.0**
-
-</td>
-</tr>
-
-<tr>
-<td width="33%" align="center">
-
-### 🤖 Automation
-![Automation](https://img.shields.io/badge/Automation-A8E6CF?style=for-the-badge&logo=gatsby&logoColor=black)
-
-**🔹 N8N Workflows**  
-**🔹 CI/CD Pipelines**  
-**🔹 Scripts Python/JS**  
-**🔹 Cron Jobs**  
-**🔹 Process Mining**
-
-</td>
-<td width="33%" align="center">
-
-### 📊 ITSM
-![ITSM](https://img.shields.io/badge/ITSM-C7B3FF?style=for-the-badge&logo=servicenow&logoColor=black)
-
-**🔹 ServiceNow**  
-**🔹 GLPI**  
-**🔹 ITIL v3**  
-**🔹 Incident Mgmt**  
-**🔹 Change Mgmt**
-
-</td>
-<td width="33%" align="center">
-
-### 🗄️ Databases
-![Database](https://img.shields.io/badge/Database-FF8B94?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**🔹 MySQL**  
-**🔹 PostgreSQL**  
-**🔹 Aurora**  
-**🔹 MongoDB**  
-**🔹 Redis Cache**
-
-</td>
-</tr>
-</table>
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#ff6b6b','primaryTextColor':'#fff','primaryBorderColor':'#ff6b6b','lineColor':'#4ecdc4','secondaryColor':'#ffe66d','tertiaryColor':'#a8e6cf','fontSize':'18px'}}}%%
+graph TB
+    A[<b>Amintas Junio</b><br/>Full Stack Developer]
+    
+    A --> B[💻 Backend Development]
+    A --> C[☁️ Cloud Engineering]
+    A --> D[🔌 Integrations]
+    A --> E[🤖 Automation]
+    A --> F[📊 ITSM]
+    A --> G[🗄️ Databases]
+    
+    B --> B1[PHP Senior]
+    B --> B2[Node.js]
+    B --> B3[Python]
+    B --> B4[REST APIs]
+    
+    C --> C1[AWS EC2]
+    C --> C2[S3 & RDS]
+    C --> C3[Security Groups]
+    C --> C4[CloudWatch]
+    
+    D --> D1[ServiceNow API]
+    D --> D2[WhatsApp Business]
+    D --> D3[GLPI REST API]
+    D --> D4[Webhooks]
+    
+    E --> E1[N8N Workflows]
+    E --> E2[CI/CD Pipelines]
+    E --> E3[Scripts Python/JS]
+    E --> E4[Cron Jobs]
+    
+    F --> F1[ServiceNow]
+    F --> F2[GLPI]
+    F --> F3[ITIL v3]
+    F --> F4[Incident Mgmt]
+    
+    G --> G1[MySQL]
+    G --> G2[PostgreSQL]
+    G --> G3[Aurora]
+    G --> G4[MongoDB]
+    
+    style A fill:#ff6b6b,stroke:#fff,stroke-width:3px,color:#fff
+    style B fill:#4ecdc4,stroke:#fff,stroke-width:2px,color:#000
+    style C fill:#ffe66d,stroke:#fff,stroke-width:2px,color:#000
+    style D fill:#a8e6cf,stroke:#fff,stroke-width:2px,color:#000
+    style E fill:#c7b3ff,stroke:#fff,stroke-width:2px,color:#000
+    style F fill:#ff8b94,stroke:#fff,stroke-width:2px,color:#000
+    style G fill:#95e1d3,stroke:#fff,stroke-width:2px,color:#000
+```
 
 </div>
 
@@ -249,9 +220,9 @@
 
 <div align="center">
 
-### 📈 Competências Técnicas Detalhadas
+### 📈 Stack Tecnológica Completa
 
-<img src="https://skillicons.dev/icons?i=php,js,python,nodejs,mysql,postgres,mongodb,redis,aws,docker,linux,nginx,git,github,gitlab,postman,vscode" alt="Tech Stack" />
+<img src="https://skillicons.dev/icons?i=php,js,python,nodejs,mysql,postgres,mongodb,redis,aws,docker,linux,nginx,git,github,gitlab,postman,vscode&perline=9" alt="Tech Stack" />
 
 </div>
 
