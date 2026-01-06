@@ -164,54 +164,70 @@
 <div align="center">
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#ff6b6b','primaryTextColor':'#fff','primaryBorderColor':'#ff6b6b','lineColor':'#4ecdc4','secondaryColor':'#ffe66d','tertiaryColor':'#a8e6cf','fontSize':'18px'}}}%%
-graph TB
-    A[<b>Amintas Junio</b><br/>Full Stack Developer]
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#1a1a2e','primaryTextColor':'#eee','primaryBorderColor':'#0f3460','lineColor':'#16213e','secondaryColor':'#0f3460','tertiaryColor':'#533483','noteBkgColor':'#16213e','noteTextColor':'#fff','fontSize':'16px','fontFamily':'trebuchet ms'}}}%%
+
+flowchart LR
+    subgraph Backend["💻 BACKEND DEVELOPMENT"]
+        B1[PHP Senior 8.x]
+        B2[Node.js & Express]
+        B3[Python & FastAPI]
+        B4[REST APIs]
+        B5[Microservices]
+    end
     
-    A --> B[💻 Backend Development]
-    A --> C[☁️ Cloud Engineering]
-    A --> D[🔌 Integrations]
-    A --> E[🤖 Automation]
-    A --> F[📊 ITSM]
-    A --> G[🗄️ Databases]
+    subgraph Cloud["☁️ CLOUD ENGINEERING"]
+        C1[AWS EC2]
+        C2[S3 Storage]
+        C3[RDS & Aurora]
+        C4[Security Groups]
+        C5[CloudWatch]
+    end
     
-    B --> B1[PHP Senior]
-    B --> B2[Node.js]
-    B --> B3[Python]
-    B --> B4[REST APIs]
+    subgraph Integration["🔌 INTEGRATIONS"]
+        I1[ServiceNow API]
+        I2[WhatsApp Business]
+        I3[GLPI REST API]
+        I4[Webhooks]
+        I5[OAuth 2.0]
+    end
     
-    C --> C1[AWS EC2]
-    C --> C2[S3 & RDS]
-    C --> C3[Security Groups]
-    C --> C4[CloudWatch]
+    subgraph Auto["🤖 AUTOMATION"]
+        A1[N8N Workflows]
+        A2[CI/CD Pipelines]
+        A3[Python Scripts]
+        A4[Cron Jobs]
+        A5[Process Mining]
+    end
     
-    D --> D1[ServiceNow API]
-    D --> D2[WhatsApp Business]
-    D --> D3[GLPI REST API]
-    D --> D4[Webhooks]
+    subgraph ITSM["📊 ITSM"]
+        IT1[ServiceNow Admin]
+        IT2[GLPI]
+        IT3[ITIL v3]
+        IT4[Incident Mgmt]
+        IT5[Change Mgmt]
+    end
     
-    E --> E1[N8N Workflows]
-    E --> E2[CI/CD Pipelines]
-    E --> E3[Scripts Python/JS]
-    E --> E4[Cron Jobs]
+    subgraph Database["🗄️ DATABASES"]
+        D1[MySQL 8.x]
+        D2[PostgreSQL]
+        D3[Amazon Aurora]
+        D4[MongoDB]
+        D5[Redis Cache]
+    end
     
-    F --> F1[ServiceNow]
-    F --> F2[GLPI]
-    F --> F3[ITIL v3]
-    F --> F4[Incident Mgmt]
+    Backend -.-> Integration
+    Cloud -.-> Backend
+    Integration -.-> Auto
+    Auto -.-> ITSM
+    Database -.-> Backend
+    Cloud -.-> Database
     
-    G --> G1[MySQL]
-    G --> G2[PostgreSQL]
-    G --> G3[Aurora]
-    G --> G4[MongoDB]
-    
-    style A fill:#ff6b6b,stroke:#fff,stroke-width:3px,color:#fff
-    style B fill:#4ecdc4,stroke:#fff,stroke-width:2px,color:#000
-    style C fill:#ffe66d,stroke:#fff,stroke-width:2px,color:#000
-    style D fill:#a8e6cf,stroke:#fff,stroke-width:2px,color:#000
-    style E fill:#c7b3ff,stroke:#fff,stroke-width:2px,color:#000
-    style F fill:#ff8b94,stroke:#fff,stroke-width:2px,color:#000
-    style G fill:#95e1d3,stroke:#fff,stroke-width:2px,color:#000
+    style Backend fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff
+    style Cloud fill:#4ecdc4,stroke:#099268,stroke-width:3px,color:#000
+    style Integration fill:#ffe66d,stroke:#f59f00,stroke-width:3px,color:#000
+    style Auto fill:#a8e6cf,stroke:#37b24d,stroke-width:3px,color:#000
+    style ITSM fill:#c7b3ff,stroke:#7950f2,stroke-width:3px,color:#000
+    style Database fill:#ff8b94,stroke:#e03131,stroke-width:3px,color:#fff
 ```
 
 </div>
@@ -220,9 +236,26 @@ graph TB
 
 <div align="center">
 
-### 📈 Stack Tecnológica Completa
+### 💼 Stack Tecnológica Completa
 
 <img src="https://skillicons.dev/icons?i=php,js,python,nodejs,mysql,postgres,mongodb,redis,aws,docker,linux,nginx,git,github,gitlab,postman,vscode&perline=9" alt="Tech Stack" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+### 🎓 Certificações & Especializações
+
+| Área | Tecnologias | Nível |
+|:-----|:------------|:-----:|
+| **Backend** | PHP, Node.js, Python | ![](https://img.shields.io/badge/Expert-90%25-success?style=flat-square) |
+| **Cloud** | AWS (EC2, S3, RDS, Aurora) | ![](https://img.shields.io/badge/Advanced-85%25-blue?style=flat-square) |
+| **Integrations** | REST API, ServiceNow, WhatsApp | ![](https://img.shields.io/badge/Expert-95%25-success?style=flat-square) |
+| **Automation** | N8N, CI/CD, Scripts | ![](https://img.shields.io/badge/Advanced-80%25-blue?style=flat-square) |
+| **ITSM** | ServiceNow, GLPI, ITIL | ![](https://img.shields.io/badge/Expert-90%25-success?style=flat-square) |
+| **Databases** | MySQL, PostgreSQL, MongoDB | ![](https://img.shields.io/badge/Advanced-85%25-blue?style=flat-square) |
 
 </div>
 
@@ -437,20 +470,13 @@ class S3FileManager {
 
 <div align="center">
   
-<a href="https://github.com/amintasjunio">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=amintasjunio&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF"/>
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=amintasjunio&theme=radical&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF"/>
-</a>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=amintasjunio&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF)
 
-</div>
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=amintasjunio&theme=radical&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF)
 
-<div align="center">
-  
-<a href="https://github.com/amintasjunio">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amintasjunio&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&langs_count=10"/>
-</a>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amintasjunio&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&langs_count=10)
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=amintasjunio&theme=react-dark&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&area_color=00D9FF" alt="Contribution Graph" />
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=amintasjunio&theme=react-dark&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&area_color=00D9FF)
 
 </div>
 
@@ -458,7 +484,7 @@ class S3FileManager {
 
 <div align="center">
   
-<img src="https://github-profile-trophy.vercel.app/?username=amintasjunio&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=amintasjunio&theme=radical&no-frame=true&no-bg=true&margin-w=4&row=2&column=4)
 
 </div>
 
