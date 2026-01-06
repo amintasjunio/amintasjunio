@@ -163,40 +163,95 @@
 
 <div align="center">
 
-```mermaid
-mindmap
-  root((Amintas<br/>Junio))
-    Backend Development
-      PHP Senior
-      Node.js
-      Python
-      REST APIs
-    Cloud Engineering
-      AWS EC2
-      S3 RDS
-      Security Groups
-      CloudWatch
-    Integrations
-      ServiceNow API
-      WhatsApp Business
-      GLPI REST API
-      Webhooks
-    Automation
-      N8N Workflows
-      CI CD Pipelines
-      Scripts Python JS
-      Cron Jobs
-    ITSM
-      ServiceNow
-      GLPI
-      ITIL v3
-      Incident Mgmt
-    Databases
-      MySQL
-      PostgreSQL
-      Aurora
-      MongoDB
-```
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 💻 Backend Development
+![Backend](https://img.shields.io/badge/Backend-FF6B6B?style=for-the-badge&logo=code&logoColor=white)
+
+**🔹 PHP Senior**  
+**🔹 Node.js**  
+**🔹 Python**  
+**🔹 REST APIs**  
+**🔹 Microservices**
+
+</td>
+<td width="33%" align="center">
+
+### ☁️ Cloud Engineering
+![Cloud](https://img.shields.io/badge/Cloud-4ECDC4?style=for-the-badge&logo=icloud&logoColor=white)
+
+**🔹 AWS EC2 & S3**  
+**🔹 RDS & Aurora**  
+**🔹 Security Groups**  
+**🔹 CloudWatch**  
+**🔹 Load Balancer**
+
+</td>
+<td width="33%" align="center">
+
+### 🔌 Integrations
+![Integration](https://img.shields.io/badge/Integration-FFE66D?style=for-the-badge&logo=integromat&logoColor=black)
+
+**🔹 ServiceNow API**  
+**🔹 WhatsApp Business**  
+**🔹 GLPI REST API**  
+**🔹 Webhooks**  
+**🔹 OAuth 2.0**
+
+</td>
+</tr>
+
+<tr>
+<td width="33%" align="center">
+
+### 🤖 Automation
+![Automation](https://img.shields.io/badge/Automation-A8E6CF?style=for-the-badge&logo=gatsby&logoColor=black)
+
+**🔹 N8N Workflows**  
+**🔹 CI/CD Pipelines**  
+**🔹 Scripts Python/JS**  
+**🔹 Cron Jobs**  
+**🔹 Process Mining**
+
+</td>
+<td width="33%" align="center">
+
+### 📊 ITSM
+![ITSM](https://img.shields.io/badge/ITSM-C7B3FF?style=for-the-badge&logo=servicenow&logoColor=black)
+
+**🔹 ServiceNow**  
+**🔹 GLPI**  
+**🔹 ITIL v3**  
+**🔹 Incident Mgmt**  
+**🔹 Change Mgmt**
+
+</td>
+<td width="33%" align="center">
+
+### 🗄️ Databases
+![Database](https://img.shields.io/badge/Database-FF8B94?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**🔹 MySQL**  
+**🔹 PostgreSQL**  
+**🔹 Aurora**  
+**🔹 MongoDB**  
+**🔹 Redis Cache**
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+<div align="center">
+
+### 📈 Competências Técnicas Detalhadas
+
+<img src="https://skillicons.dev/icons?i=php,js,python,nodejs,mysql,postgres,mongodb,redis,aws,docker,linux,nginx,git,github,gitlab,postman,vscode" alt="Tech Stack" />
 
 </div>
 
