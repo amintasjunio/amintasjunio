@@ -463,7 +463,7 @@ class WhatsAppBusinessAPI {
 
 // Exemplo de uso
 $whatsapp = new WhatsAppBusinessAPI($token, $phoneNumberId);
-$whatsapp->sendTextMessage('5538999999999', 'Olá! Mensagem automática do sistema.');
+$whatsapp->sendTextMessage('5534992656418', 'Olá! Mensagem automática do sistema.');
 ?>
 ```
 
