@@ -163,132 +163,206 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<details open>
-<summary><h3>💻 Backend Development</h3></summary>
-<br>
-
-![Backend](https://img.shields.io/badge/NÍVEL-EXPERT-FF6B6B?style=for-the-badge&logo=php&logoColor=white)
-
-#### 🚀 Tecnologias Principais
-
-- **PHP 8.x** - Desenvolvimento de aplicações robustas
-- **Node.js & Express** - APIs REST escaláveis
-- **Python & FastAPI** - Microservices de alta performance
-- **REST APIs** - Arquitetura e design de APIs
-- **Microservices** - Arquitetura distribuída
-
-#### 📦 Frameworks & Tools
-`Laravel` `Symfony` `CodeIgniter` `Express.js` `FastAPI`
-
-</details>
-
-<details open>
-<summary><h3>🔌 Integrations & APIs</h3></summary>
-<br>
-
-![Integration](https://img.shields.io/badge/NÍVEL-EXPERT-FFE66D?style=for-the-badge&logo=integromat&logoColor=black)
-
-#### 🔗 Integrações Desenvolvidas
-
-- **ServiceNow REST API** - Automação de workflows ITSM
-- **WhatsApp Business API** - Mensageria corporativa
-- **GLPI API** - Integração com sistemas de tickets
-- **Webhooks** - Event-driven architecture
-- **OAuth 2.0** - Autenticação e autorização
-
-#### 🌐 Protocolos & Padrões
-`REST` `SOAP` `GraphQL` `WebSockets` `JWT`
-
-</details>
-
-<details open>
-<summary><h3>🗄️ Databases & Storage</h3></summary>
-<br>
-
-![Database](https://img.shields.io/badge/NÍVEL-ADVANCED-FF8B94?style=for-the-badge&logo=postgresql&logoColor=white)
-
-#### 💾 Banco de Dados
-
-- **MySQL 8.x** - Otimização e performance tuning
-- **PostgreSQL** - Queries complexas e procedures
-- **Amazon Aurora** - Databases em cloud
-- **MongoDB** - NoSQL e big data
-- **Redis** - Cache e session management
-
-#### 🔧 Skills
-`Query Optimization` `Indexing` `Replication` `Backup & Recovery`
-
-</details>
-
-</td>
-<td width="50%" valign="top">
-
-<details open>
-<summary><h3>☁️ Cloud Engineering</h3></summary>
-<br>
-
-![Cloud](https://img.shields.io/badge/NÍVEL-ADVANCED-4ECDC4?style=for-the-badge&logo=amazon-aws&logoColor=white)
-
-#### ⚡ Amazon Web Services
-
-- **EC2** - Gerenciamento de instâncias e auto-scaling
-- **S3** - Object storage e CDN
-- **RDS & Aurora** - Databases gerenciados
-- **Security Groups** - Firewall e políticas de acesso
-- **CloudWatch** - Monitoring e alertas
-
-#### 🛠️ DevOps & Infrastructure
-`Terraform` `CloudFormation` `VPC` `Load Balancer` `IAM`
-
-</details>
-
-<details open>
-<summary><h3>🤖 Automation & DevOps</h3></summary>
-<br>
-
-![Automation](https://img.shields.io/badge/NÍVEL-ADVANCED-A8E6CF?style=for-the-badge&logo=gitlab&logoColor=black)
-
-#### ⚙️ Ferramentas de Automação
-
-- **N8N** - Workflows de automação no-code
-- **CI/CD Pipelines** - GitLab CI, GitHub Actions
-- **Scripts Python/JS** - Automação de processos
-- **Cron Jobs** - Tarefas agendadas
-- **Docker** - Containerização de aplicações
-
-#### 🚀 Práticas DevOps
-`Git Flow` `Blue-Green Deploy` `Rolling Updates` `Monitoring`
-
-</details>
-
-<details open>
-<summary><h3>📊 ITSM & Service Management</h3></summary>
-<br>
-
-![ITSM](https://img.shields.io/badge/NÍVEL-EXPERT-C7B3FF?style=for-the-badge&logo=servicenow&logoColor=white)
-
-#### 🎯 Gestão de Serviços
-
-- **ServiceNow** - Administration & Development
-- **GLPI** - Help desk e inventário
-- **ITIL v3** - Framework de boas práticas
-- **Incident Management** - Resolução de incidentes
-- **Change Management** - Gestão de mudanças
-
-#### 📋 Processos ITIL
-`Service Desk` `Problem Management` `SLA Management` `CMDB`
-
-</details>
-
-</td>
-</tr>
-</table>
+```mermaid
+%%{init: {'theme':'dark', 'themeVariables': { 'fontSize':'20px', 'fontFamily':'trebuchet ms', 'darkMode':'true'}}}%%
+mindmap
+  root((🚀 **AMINTAS JUNIO**
+    Full Stack Developer
+    Cloud Engineer))
+    **💻 Backend Development**
+      PHP 8.x Senior
+      Node.js & Express
+      Python & FastAPI
+      REST APIs
+      Microservices
+      Laravel & Symfony
+    **☁️ Cloud Engineering**
+      AWS EC2
+      S3 Storage
+      RDS & Aurora
+      Security Groups
+      CloudWatch
+      Load Balancer
+    **🔌 Integrations**
+      ServiceNow API
+      WhatsApp Business
+      GLPI REST API
+      Webhooks
+      OAuth 2.0
+      JWT & SSO
+    **🤖 Automation**
+      N8N Workflows
+      CI/CD Pipelines
+      Docker & K8s
+      Python Scripts
+      GitLab CI
+      GitHub Actions
+    **📊 ITSM**
+      ServiceNow Admin
+      GLPI
+      ITIL v3 Certified
+      Incident Management
+      Change Management
+      Problem Management
+    **🗄️ Databases**
+      MySQL 8.x
+      PostgreSQL
+      Aurora
+      MongoDB
+      Redis Cache
+      Query Optimization
+```
 
 </div>
+
+<br>
+
+<div align="center">
+
+### 🎯 Habilidades Técnicas Detalhadas
+
+</div>
+
+<details open>
+<summary><h2 align="center">💻 Backend Development - EXPERT (95%)</h2></summary>
+
+<div align="center">
+
+![PHP](https://img.shields.io/badge/PHP_8.x-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+### 🚀 Principais Competências
+
+**🔹 PHP Senior** - Desenvolvimento de aplicações web robustas e escaláveis  
+**🔹 Node.js** - APIs REST de alta performance  
+**🔹 Python** - Microservices e automação  
+**🔹 Arquitetura** - Design patterns, SOLID, Clean Code  
+
+### 📦 Frameworks & Ferramentas
+`Laravel` `Symfony` `CodeIgniter` `Express.js` `FastAPI` `Composer` `NPM`
+
+</div>
+
+</details>
+
+<details open>
+<summary><h2 align="center">☁️ Cloud Engineering - ADVANCED (85%)</h2></summary>
+
+<div align="center">
+
+![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazon-ec2&logoColor=white)
+![S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazon-s3&logoColor=white)
+![RDS](https://img.shields.io/badge/AWS_RDS-527FFF?style=for-the-badge&logo=amazon-rds&logoColor=white)
+
+### ⚡ Amazon Web Services
+
+**🔹 EC2** - Provisionamento, auto-scaling e gerenciamento de instâncias  
+**🔹 S3** - Object storage, versionamento e políticas de bucket  
+**🔹 RDS & Aurora** - Databases gerenciados com alta disponibilidade  
+**🔹 Segurança** - Security Groups, IAM Policies, VPC  
+
+### 🛠️ DevOps & Infrastructure
+`Terraform` `CloudFormation` `VPC` `Load Balancer` `Route 53` `CloudWatch`
+
+</div>
+
+</details>
+
+<details open>
+<summary><h2 align="center">🔌 Integrations & APIs - EXPERT (98%)</h2></summary>
+
+<div align="center">
+
+![ServiceNow](https://img.shields.io/badge/ServiceNow-00A1E0?style=for-the-badge&logo=servicenow&logoColor=white)
+![API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![WhatsApp](https://img.shields.io/badge/WhatsApp_Business-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
+
+### 🔗 Integrações Desenvolvidas
+
+**🔹 ServiceNow REST API** - Automação de workflows ITSM e sincronização de dados  
+**🔹 WhatsApp Business API** - Sistema de mensageria corporativa massiva  
+**🔹 GLPI API** - Integração com sistemas de tickets e inventário  
+**🔹 Webhooks** - Event-driven architecture e real-time data  
+
+### 🌐 Protocolos & Padrões
+`REST` `SOAP` `GraphQL` `WebSockets` `JWT` `OAuth 2.0` `API Gateway`
+
+</div>
+
+</details>
+
+<details open>
+<summary><h2 align="center">🤖 Automation & DevOps - ADVANCED (80%)</h2></summary>
+
+<div align="center">
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![N8N](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+
+### ⚙️ Ferramentas de Automação
+
+**🔹 N8N** - Workflows de automação no-code/low-code  
+**🔹 CI/CD** - Pipelines automatizados com GitLab CI e GitHub Actions  
+**🔹 Docker** - Containerização de aplicações e orquestração  
+**🔹 Scripts** - Automação de processos com Python e JavaScript  
+
+### 🚀 Práticas DevOps
+`Git Flow` `Blue-Green Deploy` `Rolling Updates` `Infrastructure as Code` `Monitoring`
+
+</div>
+
+</details>
+
+<details open>
+<summary><h2 align="center">📊 ITSM & Service Management - EXPERT (90%)</h2></summary>
+
+<div align="center">
+
+![ServiceNow](https://img.shields.io/badge/ServiceNow-00A1E0?style=for-the-badge&logo=servicenow&logoColor=white)
+![ITIL](https://img.shields.io/badge/ITIL_v3-6E3FA3?style=for-the-badge&logo=itil&logoColor=white)
+![GLPI](https://img.shields.io/badge/GLPI-3E75AE?style=for-the-badge&logo=glpi&logoColor=white)
+
+### 🎯 Gestão de Serviços
+
+**🔹 ServiceNow** - Administration, Development e customizações  
+**🔹 GLPI** - Help desk, inventário e gestão de ativos  
+**🔹 ITIL v3** - Framework de boas práticas certificado  
+**🔹 Processos** - Incident, Problem, Change e Request Management  
+
+### 📋 Expertise ITIL
+`Service Desk` `Problem Management` `SLA Management` `CMDB` `Knowledge Base`
+
+</div>
+
+</details>
+
+<details open>
+<summary><h2 align="center">🗄️ Databases & Storage - ADVANCED (88%)</h2></summary>
+
+<div align="center">
+
+![MySQL](https://img.shields.io/badge/MySQL_8.x-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+### 💾 Gerenciamento de Dados
+
+**🔹 MySQL 8.x** - Otimização, indexação e performance tuning  
+**🔹 PostgreSQL** - Queries complexas, procedures e triggers  
+**🔹 Amazon Aurora** - Databases em cloud com alta disponibilidade  
+**🔹 MongoDB** - NoSQL, big data e documentos JSON  
+
+### 🔧 Skills Avançadas
+`Query Optimization` `Indexing Strategies` `Replication` `Backup & Recovery` `Sharding`
+
+</div>
+
+</details>
 
 <br>
 
@@ -304,36 +378,14 @@
 
 <div align="center">
 
-### 📈 Nível de Proficiência por Área
+### 📊 Radar de Competências
 
-<table>
-<tr>
-<td align="center" width="16.66%">
-<img src="https://img.shields.io/badge/Backend-95%25-success?style=for-the-badge&logo=php&logoColor=white" alt="Backend"/>
-<br><b>Backend Dev</b>
-</td>
-<td align="center" width="16.66%">
-<img src="https://img.shields.io/badge/Cloud-85%25-blue?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="Cloud"/>
-<br><b>Cloud AWS</b>
-</td>
-<td align="center" width="16.66%">
-<img src="https://img.shields.io/badge/Integration-98%25-success?style=for-the-badge&logo=postman&logoColor=white" alt="Integration"/>
-<br><b>Integrations</b>
-</td>
-<td align="center" width="16.66%">
-<img src="https://img.shields.io/badge/Automation-80%25-blue?style=for-the-badge&logo=gitlab&logoColor=white" alt="Automation"/>
-<br><b>Automation</b>
-</td>
-<td align="center" width="16.66%">
-<img src="https://img.shields.io/badge/ITSM-90%25-success?style=for-the-badge&logo=servicenow&logoColor=white" alt="ITSM"/>
-<br><b>ITSM</b>
-</td>
-<td align="center" width="16.66%">
-<img src="https://img.shields.io/badge/Database-88%25-blue?style=for-the-badge&logo=postgresql&logoColor=white" alt="Database"/>
-<br><b>Databases</b>
-</td>
-</tr>
-</table>
+![Backend](https://img.shields.io/badge/Backend_Development-95%25-success?style=for-the-badge&logo=php&logoColor=white)
+![Cloud](https://img.shields.io/badge/Cloud_Engineering-85%25-blue?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Integration](https://img.shields.io/badge/Integrations-98%25-success?style=for-the-badge&logo=postman&logoColor=white)
+![Automation](https://img.shields.io/badge/Automation-80%25-blue?style=for-the-badge&logo=gitlab&logoColor=white)
+![ITSM](https://img.shields.io/badge/ITSM-90%25-success?style=for-the-badge&logo=servicenow&logoColor=white)
+![Database](https://img.shields.io/badge/Databases-88%25-blue?style=for-the-badge&logo=postgresql&logoColor=white)
 
 </div>
 
@@ -463,7 +515,7 @@ class WhatsAppBusinessAPI {
 
 // Exemplo de uso
 $whatsapp = new WhatsAppBusinessAPI($token, $phoneNumberId);
-$whatsapp->sendTextMessage('5534992656418', 'Olá! Cheguei até você pelo seu GITHUB.');
+$whatsapp->sendTextMessage('5538999999999', 'Olá! Mensagem automática do sistema.');
 ?>
 ```
 
