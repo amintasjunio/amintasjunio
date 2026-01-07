@@ -164,47 +164,45 @@
 <div align="center">
 
 ```mermaid
-%%{init: {'theme':'dark', 'themeVariables': { 'fontSize':'20px', 'fontFamily':'trebuchet ms', 'darkMode':'true'}}}%%
+%%{init: {'theme':'default', 'themeVariables': { 'primaryColor':'#ff6b6b','primaryTextColor':'#000000','primaryBorderColor':'#c92a2a','secondaryColor':'#4ecdc4','secondaryTextColor':'#000000','secondaryBorderColor':'#099268','tertiaryColor':'#ffe66d','tertiaryTextColor':'#000000','tertiaryBorderColor':'#f59f00','noteBkgColor':'#a8e6cf','noteTextColor':'#000000','noteBorderColor':'#37b24d','lineColor':'#495057','textColor':'#000000','mainBkg':'#ffffff','fontSize':'18px','fontFamily':'trebuchet ms'}}}%%
 mindmap
-  root((🚀 **AMINTAS JUNIO**
-    Full Stack Developer
-    Cloud Engineer))
-    **💻 Backend Development**
+  root((🚀 AMINTAS JUNIO<br/>Full Stack Developer<br/>Cloud Engineer))
+    💻 Backend Development
       PHP 8.x Senior
-      Node.js & Express
-      Python & FastAPI
+      Node.js Express
+      Python FastAPI
       REST APIs
       Microservices
-      Laravel & Symfony
-    **☁️ Cloud Engineering**
+      Laravel Symfony
+    ☁️ Cloud Engineering
       AWS EC2
       S3 Storage
-      RDS & Aurora
+      RDS Aurora
       Security Groups
       CloudWatch
       Load Balancer
-    **🔌 Integrations**
+    🔌 Integrations
       ServiceNow API
       WhatsApp Business
       GLPI REST API
       Webhooks
       OAuth 2.0
-      JWT & SSO
-    **🤖 Automation**
+      JWT SSO
+    🤖 Automation
       N8N Workflows
       CI/CD Pipelines
-      Docker & K8s
+      Docker K8s
       Python Scripts
       GitLab CI
       GitHub Actions
-    **📊 ITSM**
+    📊 ITSM
       ServiceNow Admin
       GLPI
       ITIL v3 Certified
       Incident Management
       Change Management
       Problem Management
-    **🗄️ Databases**
+    🗄️ Databases
       MySQL 8.x
       PostgreSQL
       Aurora
