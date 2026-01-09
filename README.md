@@ -166,7 +166,7 @@
 ```mermaid
 %%{init: {'theme':'default', 'themeVariables': { 'primaryColor':'#ff6b6b','primaryTextColor':'#000000','primaryBorderColor':'#c92a2a','secondaryColor':'#4ecdc4','secondaryTextColor':'#000000','secondaryBorderColor':'#099268','tertiaryColor':'#ffe66d','tertiaryTextColor':'#000000','tertiaryBorderColor':'#f59f00','noteBkgColor':'#a8e6cf','noteTextColor':'#000000','noteBorderColor':'#37b24d','lineColor':'#495057','textColor':'#000000','mainBkg':'#ffffff','fontSize':'18px','fontFamily':'trebuchet ms'}}}%%
 mindmap
-  root((🚀 AMINTAS JUNIO<br/>Full Stack Developer<br/>Cloud Engineer))
+  root((🚀 AMINTAS JUNIO))
     💻 Backend Development
       PHP 8.x Senior
       Node.js Express
@@ -208,7 +208,6 @@ mindmap
       Aurora
       MongoDB
       Redis Cache
-      Query Optimization
 ```
 
 </div>
